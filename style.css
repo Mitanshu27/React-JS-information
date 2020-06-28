@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+p{
+    color: cornsilk;
+    align: justify;
+}
+a{
+    color: lawngreen;
+}
+h1{
+    color: white;
+}
+h3{
+    color: yellow;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
